@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Teko:wght@500;600;700&display=swap"
+    rel="stylesheet">
+    <!-- styles -->
+  <link rel="stylesheet" href="./src/styles.css">
+  <title>Baskeball Match</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="info-bar">
+      <div class="info-bar__round"></div>
+      <div class="info-bar__date"></div>
+      <div class="info-bar__stadium"></div>
+      <div class="info-bar__time"></div>
+    </div>
+
+    <div class="match">
+
+      <div class="match__team">
+        <div id="team1-logo" class="match__team-logo"></div>
+        <div id="team1-name" class="match__team-name"></div>
+      </div>
+
+      <div class="match__tablo">
+        <div class="match__score">
+          <div id="team1-score" class="match__score-team"></div>
+          <div class="match__score-separator">:</div>
+          <div id="team2-score" class="match__score-team"></div>
+        </div>
+
+        <div class="match__quarter"></div>
+        <div class="match__tablo-heading">Waiting</div>
+        <div class="match__buttons">
+          <a id="btn-newgame" class="btn" href="#">New game</a>
+          <a id="btn-pause" class="btn" href="#">Pause game</a>
+          <a id="btn-resume" class="btn" href="#">Resume game</a>
+          <a id="btn-stop" class="btn" href="#">Stop game</a>
+        </div>
+      </div>
+
+      <div class="match__team">
+        <div id="team2-logo" class=" match__team-logo"></div>
+        <div id="team2-name" class=" match__team-name"></div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./src/main.js"></script>
+</body>
+</html>
