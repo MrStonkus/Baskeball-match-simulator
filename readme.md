@@ -44,6 +44,6 @@ Example of API connection:
 
 ## **About me**
 
-I am junior Javascript and Python developer. If you like my code and would like to see my others works or contact with me, just visit my portfolio website at http:stonkus.lt `<h1>test</>`
+I am junior Javascript and Python developer. If you like my code and would like to see my others works or contact with me, just visit my portfolio website at [Stonkus.lt](https://stonkus.lt/).
 
 Thank you and happy to codding! :)
