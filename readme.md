@@ -31,6 +31,8 @@ It will start live server and opens web browser with basketball game website. If
   * pause() -> to pause game
   * stop() -> to make gameover.
     You can see the code in file: `backend\basketball.js`
+* Note: the simulation runs 100 times faster. If you would like to do the normal simulation speed edit the backend\index.js to change these 3 lines:
+  ![](image/readme/1645279292253.png)
 
 ## Frontend
 
