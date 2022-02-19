@@ -19,7 +19,7 @@ const defMatchData = {
 	team2Name: 'Olympiacos Piraeus',
 	team2LogoUrl: 'http://localhost:3000/logos/olympiacos-piraeus-logo.jpg',
 	totalTime: 0, // total match time
-	quarterTime: 6000, // there are 1 quarter time. Original shoud be 10 minutes, but know it set 100 times faster
+	quarterTime: 6000, // there are 1 quarter time. Original shoud be 10 minutes, but now it set 100 times faster
 	attackTimeMin: 130, // min time in miliseconds witch team use to attack
 	attackTimeMax: 230, // max time in miliseconds witch team use to attack
 	team1Score: 0,
