@@ -33,6 +33,9 @@ It will start live server and opens web browser with basketball game website. If
   * stop() -> to make gameover.
     You can see the code in file: `backend\basketball.js`
 * Note: the simulation runs 100 times faster. If you would like to do the normal simulation speed edit the backend\index.js to change these 3 lines:
+`quarterTime: 6000, // there are 1 quarter time. Original shoud be 10 minutes, but know it set 100 times faster`
+`attackTimeMin: 130, // min time in miliseconds witch team use to attack`
+`attackTimeMax: 230, // max time in miliseconds witch team use to attack`
 
 ## Frontend
 
