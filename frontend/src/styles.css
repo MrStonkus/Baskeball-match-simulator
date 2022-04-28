@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 
-.container {
+.container-fluid {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,6 +157,30 @@ body {
   margin-top: 23px;
 }
 
+.registerer {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgba(5, 5, 5, 0.8);
+  top: 70%;
+  min-width: 250px;
+  /* min-height: 200px; */
+  border: 2px solid black;
+  border-radius: 8px;
+  /* padding: 1em; */
+  padding: 20px;
+}
+.registerer__heading{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+  padding: 5px 30px;
+  font-size: xx-large;
+  margin: 0;
+}
+
+
 .btn {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: rgba(5, 5, 5, 0.7);
@@ -168,6 +192,7 @@ body {
   margin: 4px;
 }
 
+
 .btn:hover {
   background-color: lightgrey;
   color: black;
@@ -175,6 +200,11 @@ body {
 
 .btn--hidden {
   visibility: hidden;
+}
+
+br{
+  color: white;
+  background-color: white;
 }
 
 @media only screen and (max-width: 768px) {

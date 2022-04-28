@@ -1,3 +1,9 @@
+
+// Data Picker Initialization
+// $('.datepicker').datepicker({
+//   inline: true
+// });
+
 // -------------------------------- FUNCTIONS --------------------------------
 
 function initGame(newGame = true) {
@@ -46,6 +52,8 @@ function initGame(newGame = true) {
 			updateButtons(['newgame'])
 		})
 }
+
+
 
 function updateWebsite() {
 	fetch('http://127.0.0.1:3000')
@@ -182,6 +190,7 @@ function stopGame() {
 	updateWebsite()
 	stopWebUpdating()
 }
+
 
 // -------------------------------- GAME LOGIC --------------------------------
 // variable to store our intervalID
